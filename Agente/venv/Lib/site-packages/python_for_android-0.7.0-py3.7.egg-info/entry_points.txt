@@ -1,0 +1,7 @@
+[console_scripts]
+p4a = pythonforandroid.toolchain:main
+python-for-android = pythonforandroid.toolchain:main
+
+[distutils.commands]
+apk = pythonforandroid.bdistapk:BdistAPK
+

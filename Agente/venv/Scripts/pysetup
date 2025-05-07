@@ -1,0 +1,4 @@
+#!C:\Users\claud\PycharmProjects\Agente\venv\Scripts\python.exe
+import sys
+from distutils2.run import main
+sys.exit(main())

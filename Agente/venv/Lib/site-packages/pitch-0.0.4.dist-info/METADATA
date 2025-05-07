@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pitch
+Version: 0.0.4
+Summary: To find pitch of an audio file
+Home-page: https://github.com/ParthMehta15/Pitch
+Author: Parth Mehta
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+This is a package to find pitch of an audio signal ie. **wav file.**
+
+Use the function by giving the input argument as the name of the *wav* file  (*type==str*).
+
+Function returns the value of the pitch of the audio.
+
+*import pitch
+
+p = pitch.find_pitch('Sample.wav')
+
+print('pitch =', p)*
+
+
+**Packages Required**
+
+1.scipy
+
+2.matplotlib
+
+3.numpy
+
+
+THE VALUE OF PITCH MAY BE IN THE RANGE OF AROUND(+7Hz to -7Hz) OF THE ACTUAL PITCH.
+
+

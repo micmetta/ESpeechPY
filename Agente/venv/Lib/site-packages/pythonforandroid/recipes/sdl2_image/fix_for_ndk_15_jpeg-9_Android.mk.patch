@@ -1,0 +1,28 @@
+
+diff -r 90b2de23ea5e -r 7ad06019831d external/jpeg-9/Android.mk
+--- a/external/jpeg-9/Android.mk	Mon Sep 18 16:07:19 2017 -0700
++++ b/external/jpeg-9/Android.mk	Mon Sep 18 16:10:17 2017 -0700
+@@ -14,19 +14,6 @@
+     jquant2.c jutils.c jmemmgr.c \
+ 	jmem-android.c
+ 
+-# the assembler is only for the ARM version, don't break the Linux sim
+-ifneq ($(TARGET_ARCH),arm)
+-ANDROID_JPEG_NO_ASSEMBLER := true
+-endif
+-
+-# temp fix until we understand why this broke cnn.com
+-#ANDROID_JPEG_NO_ASSEMBLER := true
+-
+-ifeq ($(strip $(ANDROID_JPEG_NO_ASSEMBLER)),true)
+-LOCAL_SRC_FILES += jidctint.c jidctfst.c
+-else
+-LOCAL_SRC_FILES += jidctint.c jidctfst.S
+-endif
+ 
+ LOCAL_CFLAGS += -DAVOID_TABLES 
+ LOCAL_CFLAGS += -O3 -fstrict-aliasing -fprefetch-loop-arrays
+
+
+
+

@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: py2exe2msi
+Version: 0.0.2
+Summary: An easy way to create Windows standalone applications in Python
+Home-page: http://code.google.com/p/py2exe2msi/
+Author: Artem Andreev
+Author-email: just.wow@gmail.com
+License: UNKNOWN
+Description: py2exe2msi is an extension to distutils which creates 
+        	MSI packages for py2exe-compiled applications
+Keywords: windows installer msi py2exe executable
+Platform: UNKNOWN
+Classifier: License :: OSI Approved
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: System
+Classifier: Topic :: System :: Archiving
+Classifier: Topic :: System :: Archiving :: Packaging
+Classifier: Topic :: System :: Software Distribution
+Requires: py2exe (>=0.6.9)

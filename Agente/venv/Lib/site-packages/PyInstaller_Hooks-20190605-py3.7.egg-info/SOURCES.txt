@@ -1,0 +1,14 @@
+COPYING.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+PyInstaller_Hooks.egg-info/PKG-INFO
+PyInstaller_Hooks.egg-info/SOURCES.txt
+PyInstaller_Hooks.egg-info/dependency_links.txt
+PyInstaller_Hooks.egg-info/entry_points.txt
+PyInstaller_Hooks.egg-info/not-zip-safe
+PyInstaller_Hooks.egg-info/top_level.txt
+hooks/foo.dat
+hooks/hook-foo.py
+pyinstaller_hooks/__init__.py

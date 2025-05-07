@@ -1,0 +1,13 @@
+diff --git a/crypto/objects/Makefile b/crypto/objects/Makefile
+index f93d2f9..d781bd5 100644
+--- a/crypto/objects/Makefile
++++ b/crypto/objects/Makefile
+@@ -35,7 +35,7 @@ all:	obj_dat.h obj_xref.h lib
+ 
+ lib:	$(LIBOBJ)
+ 	$(AR) $(LIB) $(LIBOBJ)
+-	$(RANLIB) $(LIB) || echo Never mind.
++	$(RANLIB) $(LIB) || echo Never mind foo bar moo cow.
+ 	@touch lib
+ 
+ obj_dat.h: obj_dat.pl obj_mac.h

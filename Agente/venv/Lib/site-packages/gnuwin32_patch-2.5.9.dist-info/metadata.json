@@ -1,0 +1,1 @@
+{"extensions": {"python.details": {"contacts": [{"email": "cournape@gmail.com", "name": "David Cournapeau", "role": "author"}], "document_names": {"description": "DESCRIPTION.rst"}}}, "generator": "bdist_wheel (0.30.0.a0)", "license": "GPL", "metadata_version": "2.0", "name": "gnuwin32-patch", "summary": "Wheel containing patch.exe", "version": "2.5.9"}

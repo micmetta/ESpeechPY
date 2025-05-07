@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: python-libmagic
+Version: 0.4.0
+Summary: Python bindings to libmagic
+Home-page: https://github.com/dveselov/python-libmagic
+Author: Dmitry Veselov
+Author-email: d.a.veselov@yandex.ru
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy

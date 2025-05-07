@@ -1,0 +1,3 @@
+[console_scripts]
+autopypi = auto_pypi.auto_pypi:main
+
