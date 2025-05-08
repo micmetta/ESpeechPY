@@ -1,5 +1,5 @@
 # ESpeechPY
-Progetto sviluppato come esame per il corso di **Sistemi ad Agenti durante la laurea triennale**.
+Progetto sviluppato per l'esame del corso di **Sistemi ad Agenti durante la laurea triennale**.
 
 # Note di riflessione
 Questo **progetto è stato realizzato nelle fasi iniziali del mio percorso nel Machine Learning**, quando avevo una conoscenza limitata di alcuni concetti fondamentali come overfitting, valutazione robusta dei modelli e ottimizzazione degli iperparametri.
